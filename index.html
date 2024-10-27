@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/> 
+    <script>
+        tailwind.config = {
+            mode: 'jit',
+            theme: {
+                extend: {},
+            },
+            variants: {},
+            plugins: [],
+        }
+    </script>
+</head>
+<body>
+  <div class="visit w-full h-[500px]  flex flex-col items-center ">
+         <div class="visit-cont h-[150px] w-full sm:w-[350px] bg-[white] flex flex-col justify-center items-center font-semibold gap-4">
+            <p class="text-[12px] text-center">Visit our office</p>
+            <h4 class="text-[30px] leading-none font-semibold text-center px-[2px]">We help small bussiness with big ideas</h4>
+         </div>
+         <div class="visit-cards w-full flex justify-center flex-wrap">
+            <div class="card  h-[350px] w-[270px] flex flex-col items-center justify-center gap-3 hover:bg-[#08295e] hover:text-[white]">
+                <div class="icon h-[50px] w-[50px]">
+                <i class="fa-solid fa-phone text-[48px] text-[dodgerblue]"></i>
+            </div>
+            <div class="card-details w-full flex flex-col items-center">
+                <p class="mail-1 text-center">georgia.young@example.com</p>
+                <p class="mail-2 text-center pb-[10px]">georgia.young@aple.com</p>
+                <h2 class="text-center pb-[10px]">Get Support</h2>
+                <button class="h-[50px] w-[170px]  bg-[white] rounded-full border-[2px] border-[dodgerblue] text-[dodgerblue]">Submit Request</button>
+            </div>
+            </div>
+            <div class="card  h-[350px] w-[270px] flex flex-col items-center justify-center gap-3 hover:bg-[#08295e] hover:text-[white]">
+                <div class="icon h-[50px] w-[50px]">
+                    <i class="fa-solid fa-location-dot text-[48px] text-[dodgerblue]"></i>
+            </div>
+            <div class="card-details w-full flex flex-col items-center">
+                <p class="mail-1 text-center">georgia.young@example.com</p>
+                <p class="mail-2 text-center pb-[10px]">georgia.young@aple.com</p>
+                <h2 class="text-center pb-[10px]">Get Support</h2>
+                <button class="h-[50px] w-[170px]  bg-[white] rounded-full border-[2px] border-[dodgerblue] text-[dodgerblue]">Submit Request</button>
+            </div>
+            </div>
+            <div class="card  h-[350px] w-[270px] flex flex-col items-center justify-center gap-3 hover:bg-[#08295e] hover:text-[white]">
+                <div class="icon h-[50px] w-[50px]">
+                    <i class="fa-solid fa-envelope text-[48px] text-[dodgerblue]"></i>
+            </div>
+            <div class="card-details w-full flex flex-col items-center">
+                <p class="mail-1 text-center">georgia.young@example.com</p>
+                <p class="mail-2 text-center pb-[10px]">georgia.young@aple.com</p>
+                <h2 class="text-center pb-[10px]">Get Support</h2>
+                <button class="h-[50px] w-[170px]  bg-[white] rounded-full  border-[2px] border-[dodgerblue] text-[dodgerblue]">Submit Request</button>
+            </div>
+            </div>
+
+         </div>
+  </div>  
+</body>
+</html>
